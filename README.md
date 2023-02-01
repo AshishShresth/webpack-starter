@@ -533,6 +533,5 @@ To use the asset resource loader under the module section we have to add the fol
 And if we want the resource name to be the same under the output section we can configure the **assetModuleFilename**
 
 ```js
- assetModuleFilename: '[name][ext]'
-
+    assetModuleFilename: '[name][ext]'
 ```
