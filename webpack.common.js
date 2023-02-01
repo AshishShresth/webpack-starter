@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'final_destination'),
         clean: true,
-        assetModuleFilename: 'images/[hash][ext][query]'
+        assetModuleFilename: 'images/[name].[hash][ext][query]'
     },
     module: {
         rules: [
