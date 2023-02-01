@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: {
         main: path.resolve(__dirname, 'source_code/index.js'),
-        vendor: path.resolve(__dirname, 'source_code/vendor.js')
+        // vendor: path.resolve(__dirname, 'source_code/vendor.js')
     },
     output: {
         path: path.resolve(__dirname, 'final_destination'),
