@@ -19,6 +19,7 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "cssnano-webpack-plugin": "^1.0.3",
     "html-loader": "^4.2.0",
+    "html-webpack-partials-plugin": "^0.8.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
     "postcss": "^8.4.21",

@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
 
 module.exports = {
     entry: {
@@ -32,4 +33,18 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new HtmlWebpackPartialsPlugin([
+            {
+                path: path.join(__dirname, './source_code/partials/header.html'),
+                location: 'nav',
+                template_filename: '*'
+            },
+            {
+                path: path.join(__dirname, './source_code/partials/footer.html'),
+                location: 'footer',
+                template_filename: '*'
+            }
+        ])
+    ]
 }
